@@ -1,0 +1,29 @@
+{
+  "name": "node_basic_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prettify": "prettier --write *.js **/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "eslint": "^7.32.0",
+    "express": "^4.17.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.8",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "lint": "^1.1.2",
+    "prettier": "^2.7.1"
+  }
+}
